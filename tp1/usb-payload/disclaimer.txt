@@ -1,0 +1,1 @@
+Usb payload are adapted from https://github.com/Raj-Mehta2012/PythonKeylogger-BadUSB-ChromeVirus/tree/master
