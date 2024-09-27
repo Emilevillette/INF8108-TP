@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Email Desjardins Style</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .email-container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 1px solid #eaeaea;
+        }
+
+        .header {
+            background-color: #007E3A;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .logo-container {
+            display: inline-block;
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .logo-container img {
+            width: 150px;
+            height: auto;
+        }
+
+        .header h1 {
+            color: #ffffff;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .content h2 {
+            color: #007E3A;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            color: #333333;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #007E3A;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        .button i {
+            margin-right: 8px; /* Espace entre l'icône et le texte */
+            color: #ffffff; /* Icône en blanc */
+        }
+
+        .disclaimer {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border: 1px solid #eaeaea;
+            font-size: 14px;
+            color: #ff0000;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .footer {
+            background-color: #f9f9f9;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            color: #888888;
+            border-top: 1px solid #eaeaea;
+        }
+
+        .footer a {
+            color: #007E3A;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="email-container">
+        <!-- Header Section -->
+        <div class="header">
+            <div class="logo-container">
+                <img src="https://www.desjardins.com/ressources/images/d05-logo-ere-numerique2018.svg?resVer=1520861863000" alt="Desjardins Logo">
+            </div>
+            <h1>Votre Banque à Portée de Main</h1>
+        </div>
+
+        <!-- Content Section -->
+        <div class="content">
+            <h2>Cher client,</h2>
+            <p>
+                Nous vous informons que votre compte chez Desjardins a été mis à jour avec succès. Afin de finaliser l'opération, il vous suffit de signer le contrat en pièce-jointe et de nous le faire parvenir.
+            </p>
+            <p>
+                Pour consulter vos dernières opérations, et nous envoyer le document, veuillez cliquer sur le bouton ci-dessous.
+            </p>
+
+            <!-- Button Section (Centered) -->
+            <div class="button-container">
+                    
+                    <a href="https://accweb.mouv.desjardins.com/identifiantunique/securite-garantie/authentification/auth/manuel?domaineVirtuel=desjardins&langueCible=en" class="button"><i class="fas fa-lock"></i>Cliquez ici pour téléverser le document</a>
+            </div>
+
+            <!-- Disclaimer Section -->
+            <div class="disclaimer">
+                <p><strong>Important :</strong> Desjardins ne vous demandera jamais vos informations personnelles, ou vos identifiants de connexion par email ou téléphone. Ne divulguez jamais vos informations confidentielles.</p>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <p>
+                Ceci est un message automatique, merci de ne pas y répondre.
+                <br>
+                <br>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Contactez-nous</a> | <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Paramètres de notification</a> | <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Politique de confidentialité</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
