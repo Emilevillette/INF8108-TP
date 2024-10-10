@@ -1,5 +1,8 @@
 # Partie 2.2 README
 
+Il y a deux versions, une en go, dans le sous-dossier "source", une avec divers méchanismes décrits ci-dessous. Les exes ne sont pas inclus.
+
+
 ## Fonctionnement du keylogger
 
 Dans le fichier `bad_usb` se trouve un keylogger qui enregistre les frappes de clavier et les envoie à un serveur distant. Le keylogger est écrit en Python et utilise la bibliothèque `pynput` pour enregistrer les frappes de clavier. Le keylogger est exécuté en arrière-plan et enregistre les frappes de clavier dans un fichier texte. 
